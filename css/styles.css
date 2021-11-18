@@ -336,8 +336,6 @@ font-size: 44px;
   margin-bottom: 30px;
 }
 .info-icon{
-  display: flex;
-  align-items: center;
   margin-left: 100px;
   margin-right: 100px;
 }
