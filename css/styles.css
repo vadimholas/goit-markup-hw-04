@@ -335,6 +335,12 @@ font-size: 44px;
   border-radius: 4px;
   margin-bottom: 30px;
 }
+.info-icon{
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 
 
