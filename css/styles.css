@@ -108,10 +108,32 @@ img {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    }
+  .icon-header-maill{
+    margin-right: 10px;
+    width: 16px;
+    height: 12px;
+    fill: #757575;
   }
+  .icon-header-telefon{
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: #757575;
+  }
+.icon-header-maill:hover,
+.icon-header-maill:focus{
+  fill: currentColor;
+}
+
 .link-contact-header:hover {
   color:var(--accent-text-color);
   text-decoration: none;
+}
+.icon-header-telefon:hover,
+.icon-header-telefon:focus{
+  fill:currentColor;
 }
 .link-contact-header:focus{
   color: var(--accent-text-color);
@@ -136,6 +158,9 @@ img {
 }
 .list {
   list-style: none;
+}
+.icon-header{
+
 }
 /*------------main-------------*/
 .section-portfolio{
