@@ -301,7 +301,6 @@ color: #ffffff;
 }
 .title-footer{
   margin-bottom: 20px;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .list-icon-footer{
   display: flex;
@@ -334,7 +333,6 @@ color: #ffffff;
 .link-icon-footer:focus,
 .link-icon-footer:hover{
   background-color: var(--accent-text-color);
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .footer-icon{
