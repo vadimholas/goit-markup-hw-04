@@ -32,8 +32,15 @@
                 </ul>
             </nav>
             <ul class="list list-contact">
-                <li class="item-link-header"><a class="link link-contact-header" href="mailto:info@example.com">info@devstudio.com</a></li>
-                <li class="item-link-header"><a class="link link-contact-header" href="tel:+380991111111">+38 096 111 11 11</a></li>
+                <li class="item-link-header" ><a class="link link-contact-header" href="mailto:info@devstudio.com">
+                    <svg class="icon-header-maill">
+                    <use href="./images/icons.svg#icon-maill"></use>
+                </svg>info@devstudio.com</a></li>
+                <li class="item-link-header"><a class="link link-contact-header" href="tel:+380991111111">
+                    <svg class="icon-header-telefon">
+                    <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -103,7 +110,8 @@
 
     <!--футер-->
     <footer class="footer">
-        <div class="container footer-container">
+        <div class="container footer-icon-div">
+        <div class=" footer-container">
             <a href="./index.html" class="header-logo">
                 <span class="accent-text">Web</span><span class="accent-footer">Studio</span>
             </a>
@@ -117,7 +125,26 @@
                 </ul>
             </address>
         </div>
-    </footer>
+        <div class="footer-icon">
+            <h2 class="title-footer">присоединяйтесь</h2>
+            <ul class="list list-icon-footer">
+              <li class="item-icon-footer"><a class="link-icon-footer" href=""><svg class="icon-footer">
+                  <use href="./images/icons.svg#icon-instagram1"></use>
+              </svg></a></li>
+              <li class="item-icon-footer"><a class="link-icon-footer" href=""><svg class="icon-footer">
+                <use href="./images/icons.svg#icon-twitter"></use>
+            </svg></a></li>
+            <li class="item-icon-footer"><a class="link-icon-footer" href=""><svg class="icon-footer">
+                <use href="./images/icons.svg#icon-facebook"></use>
+            </svg></a></li>
+            <li class="item-icon-footer"><a class="link-icon-footer" href=""><svg class="icon-footer">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg></a></li>
+            </ul>
+            
+        </div>
+    </div>
+</footer>
 
 
 </body>
