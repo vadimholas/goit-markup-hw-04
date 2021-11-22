@@ -405,10 +405,9 @@ font-size: 44px;
  background-color: #F5F4FA;
  border-radius: 4%;
  margin-bottom: 30px;
-}
-.info-icon{
-  margin-left: 100px;
-  margin-top: 25px;
+ display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .title-info{
