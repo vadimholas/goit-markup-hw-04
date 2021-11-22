@@ -183,11 +183,10 @@ img {
   border-radius: 4px;
   margin-right: 8px;
   padding: 6px 22px;
-  outline: none;
 }
 
 .btn:hover {
-  background-color:  var(--accent-text-color);
+  background-color:var(--accent-text-color);
   color:#ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -364,7 +363,7 @@ font-size: 44px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.title-btn {
+.title-btn-hero{
   background-color: var(--accent-text-color);
   color: #ffffff;
   font-weight: 700;
@@ -373,14 +372,18 @@ font-size: 44px;
   letter-spacing: 0.06em;
   outline: none;
 }
-.title-btn{
+.title-btn-hero{
   display:block;
   margin: auto;
   margin-top: 30px;
   width: 200px;
   height: 50px;
 }
-
+.title-btn-hero:hover,
+.title-btn-hero:focus{
+  background-color: var(--accent-text-color);
+  color: #ffffff;
+}
 /*---------------INFO----------------*/
 .info{
   padding-top: 94px;
